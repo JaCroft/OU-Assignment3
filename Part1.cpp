@@ -6,7 +6,10 @@ using namespace std;
 int addArray(vector<int> x);
 int mulArray(vector<int> x);
 /*adding comments to cause a merge conglict*/
+<<<<<<< HEAD
 vector reverseArray(vector<int> x);
+=======
+>>>>>>> 16d9a97 (added comments)
 
 int addArray(vector<int> x)
 {
@@ -32,6 +35,7 @@ int mulArray(vector<int> x)
 	return product;
 }
 //nothing to see here pointless comments
+<<<<<<< HEAD
 
 vector reverseArray(vector<int> x)
 {
@@ -44,6 +48,8 @@ vector reverseArray(vector<int> x)
 
 	return reversed;
 }
+=======
+>>>>>>> 16d9a97 (added comments)
 
 int main()
 {
