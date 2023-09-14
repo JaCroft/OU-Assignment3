@@ -46,6 +46,7 @@ vector reverseArray(vector<int> x)
 int main()
 {
 	vector<int> vect1;
+	vector<int> vectReversed;
 	int x;
 
 	cout << "please enter a number: ";
@@ -57,6 +58,15 @@ int main()
 
 	cout << "the sum of the numbers in the array is: " << addArray(vect1) << endl;
 	cout << "the product of the numbers in the array is: " << mulArray(vect1) << endl;
+	cout << "the reversed array is: ";
+
+	vectReversed = reverseArray(vect1);
+	for (int i = 0; i < vectReversed.size() - 1; i++)
+	{
+		cout << vectReversed[i] << " ";
+	}
+
+
 
 	return 0;
 }
