@@ -5,6 +5,7 @@ using namespace std;
 
 int addArray(vector<int> x);
 int mulArray(vector<int> x);
+vector reverseArray(vector<int> x);
 
 int addArray(vector<int> x)
 {
@@ -28,6 +29,18 @@ int mulArray(vector<int> x)
 	}
 
 	return product;
+}
+
+vector reverseArray(vector<int> x)
+{
+	vector<int> reversed;
+
+	while (x.size() > 0)
+	{
+		reversed.push_back(x.pop_back);
+	}
+
+	return reversed;
 }
 
 int main()
