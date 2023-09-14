@@ -5,6 +5,7 @@ using namespace std;
 
 int addArray(vector<int> x);
 int mulArray(vector<int> x);
+/*adding comments to cause a merge conglict*/
 
 int addArray(vector<int> x)
 {
@@ -29,4 +30,5 @@ int mulArray(vector<int> x)
 
 	return product;
 }
+//nothing to see here pointless comments
 
